@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Helmet } from 'react-helmet-async'
-import { useLocation } from 'react-router'
+import { useLocation } from 'react-router-dom'
 import { customMeta, DEFAULT_META } from 'config/constants/meta'
 import { usePriceCakeBusd } from 'state/hooks'
 import Container from './Container'
